@@ -2,6 +2,7 @@
   "nav": {
     "about": "About",
     "skills": "Skills",
+    "experience": "Experience",
     "projects": "Projects",
     "contact": "Contact"
   },
@@ -17,6 +18,20 @@
     "title": "About me",
     "bio": "Solo IT in an e-commerce company — I design, build and deploy automation systems end-to-end, from marketplace integrations to AI agents. Outside work I build my own projects: exoplanet detection ML pipelines, NBA game predictors, AI email agents. I care more about understanding the problem than knowing the ready-made solution.",
     "photo_alt": "Profile photo"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "job_title": "IT Specialist / Python Developer",
+    "company": "E-commerce company · Białystok, Poland",
+    "period": "January 2025 – present",
+    "bullets": [
+      "Solo IT — I design, build and deploy systems end-to-end, from architecture to production",
+      "Designed event-driven stock sync architecture: SQL Server Change Tracking → RabbitMQ → 15+ marketplaces and shops",
+      "Built central product hub (FastAPI + PostgreSQL + Strapi) with offer export pipeline and BigQuery monitoring",
+      "36 integration repositories — order automation, stock sync, product images, reports",
+      "All services containerized (Docker Compose), CI/CD via GitHub Actions, deployment via Portainer"
+    ],
+    "showcase_link": "View system architecture on GitHub"
   },
   "skills": {
     "title": "Technologies"

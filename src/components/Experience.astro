@@ -1,0 +1,74 @@
+---
+import { t } from '../i18n/utils';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const bullets = {
+  pl: [
+    'Jedyna osoba IT — projektuję, buduję i wdrażam systemy od architektury po produkcję',
+    'Zaprojektowałem architekturę event-driven do synchronizacji stanów magazynowych: SQL Server Change Tracking → RabbitMQ → 15+ marketplace\'ów i sklepów',
+    'Zbudowałem centralny hub produktowy (FastAPI + PostgreSQL + Strapi) z eksportem ofert i monitoringiem w BigQuery',
+    '36 repozytoriów integracyjnych — automatyzacja zamówień, stanów, zdjęć produktowych, raportów',
+    'Wszystkie usługi skonteneryzowane (Docker Compose), CI/CD przez GitHub Actions, deployment przez Portainer',
+  ],
+  en: [
+    'Solo IT — I design, build and deploy systems end-to-end, from architecture to production',
+    'Designed event-driven stock sync architecture: SQL Server Change Tracking → RabbitMQ → 15+ marketplaces and shops',
+    'Built central product hub (FastAPI + PostgreSQL + Strapi) with offer export pipeline and BigQuery monitoring',
+    '36 integration repositories — order automation, stock sync, product images, reports',
+    'All services containerized (Docker Compose), CI/CD via GitHub Actions, deployment via Portainer',
+  ],
+};
+---
+
+<section id="experience" class="py-20 bg-gray-50 dark:bg-gray-800/50">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center">
+      {t(lang, 'experience.title')}
+    </h2>
+
+    <div class="relative border-l-2 border-blue-500 pl-8 ml-4">
+      <div class="mb-2 absolute -left-2 top-1 w-4 h-4 rounded-full bg-blue-500"></div>
+
+      <div class="bg-white dark:bg-gray-900 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3 gap-2">
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white">
+            {t(lang, 'experience.job_title')}
+          </h3>
+          <span class="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap">
+            {t(lang, 'experience.period')}
+          </span>
+        </div>
+        <p class="text-blue-600 dark:text-blue-400 font-medium mb-4">
+          {t(lang, 'experience.company')}
+        </p>
+
+        <ul class="space-y-2 text-gray-600 dark:text-gray-300 text-sm mb-5">
+          {bullets[lang].map((bullet) => (
+            <li class="flex gap-2">
+              <span class="text-blue-500 mt-0.5 shrink-0">▸</span>
+              <span>{bullet}</span>
+            </li>
+          ))}
+        </ul>
+
+        <a
+          href="https://github.com/tomeks691/ecommerce-automation-platform"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 text-sm font-medium text-blue-600 dark:text-blue-400 hover:underline"
+        >
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          {t(lang, 'experience.showcase_link')}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
