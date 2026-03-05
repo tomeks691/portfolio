@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Hero from '../components/Hero.astro';
+import About from '../components/About.astro';
+import Skills from '../components/Skills.astro';
+import Projects from '../components/Projects.astro';
+import Contact from '../components/Contact.astro';
+import Footer from '../components/Footer.astro';
+
+const lang = 'pl' as const;
+---
+
+<Layout
+  title="Tomek - AI Developer | Portfolio"
+  description="Portfolio Tomka - AI Developer. Projekty z zakresu AI, LLM, RAG i nowoczesnych technologii."
+  lang={lang}
+>
+  <Navbar lang={lang} />
+  <main>
+    <Hero lang={lang} />
+    <About lang={lang} />
+    <Skills lang={lang} />
+    <Projects lang={lang} />
+    <Contact lang={lang} />
+  </main>
+  <Footer lang={lang} />
+</Layout>

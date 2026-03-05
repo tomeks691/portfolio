@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "about": "O mnie",
+    "skills": "Umiejętności",
+    "projects": "Projekty",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Cześć, jestem",
+    "name": "Tomek",
+    "role": "AI Developer",
+    "tagline": "Buduję inteligentne systemy z wykorzystaniem AI, LLM i nowoczesnych technologii.",
+    "cta_github": "GitHub",
+    "cta_contact": "Kontakt"
+  },
+  "about": {
+    "title": "O mnie",
+    "bio": "Jestem programistą specjalizującym się w rozwiązaniach opartych na sztucznej inteligencji. Łączę wiedzę z zakresu backendu, LLM i inżynierii danych, tworząc systemy, które rozwiązują realne problemy biznesowe.",
+    "photo_alt": "Zdjęcie profilowe"
+  },
+  "skills": {
+    "title": "Technologie"
+  },
+  "projects": {
+    "title": "Projekty",
+    "github": "GitHub",
+    "demo": "Demo"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Chętnie porozmawiam o współpracy lub ciekawych projektach.",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "built_with": "Zbudowano z",
+    "and": "i"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Tomek",
+    "role": "AI Developer",
+    "tagline": "I build intelligent systems using AI, LLMs and modern technologies.",
+    "cta_github": "GitHub",
+    "cta_contact": "Contact"
+  },
+  "about": {
+    "title": "About me",
+    "bio": "I'm a developer specializing in AI-powered solutions. I combine backend expertise, LLMs and data engineering to build systems that solve real business problems.",
+    "photo_alt": "Profile photo"
+  },
+  "skills": {
+    "title": "Technologies"
+  },
+  "projects": {
+    "title": "Projects",
+    "github": "GitHub",
+    "demo": "Demo"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "I'm always happy to discuss collaboration or interesting projects.",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "built_with": "Built with",
+    "and": "and"
+  }
+}

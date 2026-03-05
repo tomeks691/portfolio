@@ -1,0 +1,18 @@
+---
+import { t, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<footer class="py-8 px-4 border-t border-gray-800/50">
+  <div class="max-w-4xl mx-auto text-center text-sm text-gray-500">
+    <p>
+      &copy; {year} Tomek. {t(lang, 'footer.built_with')} <a href="https://astro.build" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:text-indigo-300 transition-colors">Astro</a> {t(lang, 'footer.and')} <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer" class="text-cyan-400 hover:text-cyan-300 transition-colors">Tailwind CSS</a>.
+    </p>
+  </div>
+</footer>

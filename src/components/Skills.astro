@@ -1,0 +1,38 @@
+---
+import { t, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const skills = [
+  'Python',
+  'FastAPI',
+  'OpenAI',
+  'LangChain',
+  'Qdrant',
+  'Docker',
+  'PostgreSQL',
+  'Redis',
+  'Langfuse',
+  'Presidio',
+  'React',
+  'TypeScript',
+];
+---
+
+<section id="skills" class="py-20 px-4">
+  <div class="max-w-4xl mx-auto fade-in">
+    <h2 class="section-title">
+      <span class="gradient-text">{t(lang, 'skills.title')}</span>
+    </h2>
+
+    <div class="flex flex-wrap justify-center gap-3">
+      {skills.map((skill) => (
+        <span class="badge text-base px-4 py-2">{skill}</span>
+      ))}
+    </div>
+  </div>
+</section>
