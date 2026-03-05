@@ -7,15 +7,15 @@
   },
   "hero": {
     "greeting": "Cześć, jestem",
-    "name": "Tomek",
-    "role": "AI Developer",
-    "tagline": "Buduję inteligentne systemy z wykorzystaniem AI, LLM i nowoczesnych technologii.",
+    "name": "Tomasz Sosnowski",
+    "role": "Python Developer | AI & Automation",
+    "tagline": "Projektuję i wdrażam systemy automatyzacji AI — od architektury po produkcję.",
     "cta_github": "GitHub",
     "cta_contact": "Kontakt"
   },
   "about": {
     "title": "O mnie",
-    "bio": "Jestem programistą specjalizującym się w rozwiązaniach opartych na sztucznej inteligencji. Łączę wiedzę z zakresu backendu, LLM i inżynierii danych, tworząc systemy, które rozwiązują realne problemy biznesowe.",
+    "bio": "Jako jedyna osoba IT w firmie e-commerce sam projektuję, buduję i wdrażam systemy automatyzacji — od integracji marketplace'ów po agenty AI. Poza pracą buduję własne projekty: od wykrywania egzoplanet przez pipeline ML, po predykcję wyników NBA. Ciekawość problemu jest ważniejsza niż znajomość gotowego rozwiązania.",
     "photo_alt": "Zdjęcie profilowe"
   },
   "skills": {

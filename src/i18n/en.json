@@ -7,15 +7,15 @@
   },
   "hero": {
     "greeting": "Hi, I'm",
-    "name": "Tomek",
-    "role": "AI Developer",
-    "tagline": "I build intelligent systems using AI, LLMs and modern technologies.",
+    "name": "Tomasz Sosnowski",
+    "role": "Python Developer | AI & Automation",
+    "tagline": "I design and deploy AI automation systems — from architecture to production.",
     "cta_github": "GitHub",
     "cta_contact": "Contact"
   },
   "about": {
     "title": "About me",
-    "bio": "I'm a developer specializing in AI-powered solutions. I combine backend expertise, LLMs and data engineering to build systems that solve real business problems.",
+    "bio": "Solo IT in an e-commerce company — I design, build and deploy automation systems end-to-end, from marketplace integrations to AI agents. Outside work I build my own projects: exoplanet detection ML pipelines, NBA game predictors, AI email agents. I care more about understanding the problem than knowing the ready-made solution.",
     "photo_alt": "Profile photo"
   },
   "skills": {

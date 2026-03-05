@@ -16,8 +16,8 @@ export const projects: Project[] = [
       en: 'AI Support Mail Agent',
     },
     description: {
-      pl: 'System RAG do automatycznej obsługi maili klientów e-commerce. Hybrydowa klasyfikacja maili (keyword matching + LLM fallback), anonimizacja danych wrażliwych lokalnie przez Microsoft Presidio (PESEL, IBAN, telefon), automatyczna detekcja języka PL/EN, async processing przez Redis, observability przez Langfuse. Żadne dane osobowe nie trafiają do chmury.',
-      en: 'RAG system for automated e-commerce customer email handling. Hybrid email classification (keyword matching + LLM fallback), local PII anonymization via Microsoft Presidio (no sensitive data sent to cloud), automatic PL/EN language detection, async processing via Redis queue, observability via Langfuse.',
+      pl: 'System RAG do automatycznej obsługi maili klientów e-commerce. Hybrydowa klasyfikacja maili (keyword matching + LLM fallback), anonimizacja danych wrażliwych lokalnie przez Microsoft Presidio (PESEL, IBAN, telefon), automatyczna detekcja języka PL/EN, async processing przez Redis, observability przez Langfuse. 104 testy automatyczne. Żadne dane osobowe nie trafiają do chmury.',
+      en: 'RAG system for automated e-commerce customer email handling. Hybrid email classification (keyword matching + LLM fallback), local PII anonymization via Microsoft Presidio (no sensitive data sent to cloud), automatic PL/EN language detection, async processing via Redis queue, observability via Langfuse. 104 automated tests.',
     },
     tags: ['Python', 'FastAPI', 'OpenAI', 'Qdrant', 'Redis', 'Langfuse', 'Presidio', 'Docker', 'GitHub Actions'],
     github: 'https://github.com/tomeks691/ai-support-mail-agent',
