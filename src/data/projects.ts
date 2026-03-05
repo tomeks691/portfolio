@@ -10,6 +10,19 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: 'ecommerce-automation',
+    title: {
+      pl: 'E-commerce Automation Platform',
+      en: 'E-commerce Automation Platform',
+    },
+    description: {
+      pl: 'Zaprojektowałem i wdrożyłem od zera system integracji e-commerce obsługujący 15+ marketplace\'ów. Architektura event-driven: SQL Server Change Tracking → RabbitMQ → konsumenci aktualizujący stany magazynowe w czasie rzeczywistym. Centralny hub produktowy (FastAPI + PostgreSQL) z eksportem ofert i monitoringiem przez BigQuery. 36 repozytoriów, wszystkie usługi skonteneryzowane.',
+      en: 'Designed and deployed from scratch an e-commerce integration platform covering 15+ marketplaces. Event-driven architecture: SQL Server Change Tracking → RabbitMQ → consumers updating stock in real time. Central product hub (FastAPI + PostgreSQL) with offer export pipeline and BigQuery monitoring. 36 repositories, all services containerized.',
+    },
+    tags: ['Python', 'RabbitMQ', 'FastAPI', 'PostgreSQL', 'BigQuery', 'Docker', 'SQL Server', 'Strapi', 'Go'],
+    github: 'https://github.com/tomeks691/ecommerce-automation-platform',
+  },
+  {
     id: 'rag-email-agent',
     title: {
       pl: 'AI Support Mail Agent',
