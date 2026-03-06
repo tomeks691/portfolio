@@ -38,8 +38,8 @@ export const projects: Project[] = [
   {
     id: 'nba-ml-predictor',
     title: {
-      pl: 'NBA ML Betting System',
-      en: 'NBA ML Betting System',
+      pl: 'NBA Game Predictor',
+      en: 'NBA Game Predictor',
     },
     description: {
       pl: 'System machine learning do predykcji wyników meczów NBA (over/under total points). Automatyczne zbieranie danych codziennie z NBA API — statystyki drużyn, kontuzje zawodników, harmonogram. Model XGBoost z ~50-100 cechami (features), self-learning — uczy się z każdego rozegranego meczu. Pełny backtesting i performance tracking.',
