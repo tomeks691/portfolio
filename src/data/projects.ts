@@ -72,5 +72,6 @@ export const projects: Project[] = [
       en: 'A set of business and AI automations on n8n platform. Check_Companies — weekly GPT scans stock market, evaluates AI/space companies via web search, saves results to PostgreSQL. IT Discovery Mail — delivers 3 IT/AI discoveries via email every morning. Watchlist Discord Digest — weekly investment report to Discord.',
     },
     tags: ['n8n', 'OpenAI', 'PostgreSQL', 'Discord', 'Resend', 'Docker'],
+    github: 'https://github.com/tomeks691/n8n-automation-workflows',
   },
 ];
