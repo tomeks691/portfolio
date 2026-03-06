@@ -57,6 +57,7 @@ export const projects: Project[] = [
       en: 'Price monitoring system for electronics on Allegro, Amazon and Zalando with AI processing. Stealth scraping with anti-bot bypass, LLM result processing, price change notifications. Built as a demo for fictional company ElektroNova.',
     },
     tags: ['Python', 'FastAPI', 'OpenAI', 'Docker', 'Web Scraping', 'REST API'],
+    github: 'https://github.com/tomeks691/electronova-pricewatch',
   },
   {
     id: 'n8n-automations',
