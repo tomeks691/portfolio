@@ -33,6 +33,7 @@ export const projects: Project[] = [
       en: 'Autonomous exoplanet detection system using NASA TESS photometric data. Multi-stage pipeline: light curve fetching from MAST API → signal cleaning → BLS periodogram → signal classification. Custom decision-tree classifier distinguishes 7 classes (PLANET_CANDIDATE, ECLIPSING_BINARY, VARIABLE_STAR and more). Database of 476 known NASA planets for result validation. Processes thousands of stars 24/7.',
     },
     tags: ['Python', 'FastAPI', 'SQLite', 'Docker', 'lightkurve', 'BLS', 'MAST API', 'ML Pipeline'],
+    github: 'https://github.com/tomeks691/planet-hunter',
   },
   {
     id: 'nba-ml-predictor',
@@ -45,6 +46,7 @@ export const projects: Project[] = [
       en: 'Machine learning system for predicting NBA game results (over/under total points). Automated daily data collection from NBA API — team stats, player injuries, schedule. XGBoost model with ~50-100 features, self-learning — trains on each completed game. Full backtesting and performance tracking.',
     },
     tags: ['Python', 'XGBoost', 'PostgreSQL', 'FastAPI', 'Docker', 'APScheduler', 'SQLAlchemy'],
+    github: 'https://github.com/tomeks691/nba-game-predictor',
   },
   {
     id: 'pricewatch',
